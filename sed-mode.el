@@ -77,6 +77,7 @@
      (list "\\(#\\)\\(.*\\)$" '(1 font-lock-comment-delimiter-face) '(2 font-lock-comment-face))
      )))
 
+;;;###autoload
 (defun sed-mode()
   (interactive)
   (kill-all-local-variables)
